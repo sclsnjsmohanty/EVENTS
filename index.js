@@ -36,7 +36,7 @@ let html = '<html><head>';
     html += '</style></head><body>';
     html += "<h3>"+eventType+"</h3>";
 
-  //  Logger.log(options);
+    Logger.log(options);
   const today = new Date();
   //const apiDate = date.format(today, 'yyyy-MM-dd');
   const apiDate = moment().format("yyyy-MM-DD");
